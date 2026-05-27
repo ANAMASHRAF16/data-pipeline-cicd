@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pytest
 
-from src.pipeline import enrich, main, parse_row, process
+from src.pipeline import enrich, main
 from src.validators import validate_order
 
 FIXTURES = Path(__file__).parent / "fixtures"
