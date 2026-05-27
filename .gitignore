@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data/output/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+dist/
+build/
+*.zip
+
+# Local scratch — gitignored to keep clean PR/video docs out of repo
+PR_DESCRIPTION.md
+VIDEO_SCRIPT.md
